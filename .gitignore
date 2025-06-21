@@ -1,16 +1,16 @@
-# Compiled class file
+# 🔐 Secret API key
+config.properties
+
+# ⚙️ IntelliJ project files
+.idea/
+*.iml
+
+# 🚫 Build output
+/out/
+build/
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# 📦 Package & archive files
 *.jar
 *.war
 *.nar
@@ -19,6 +19,16 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# 📝 Logs
+*.log
+
+# 📱 Mobile tools (J2ME)
+.mtj.tmp/
+
+# 💥 VM crash logs
 hs_err_pid*
 replay_pid*
+
+# 🍏 macOS + 🪟 Windows system files
+.DS_Store
+Thumbs.db
